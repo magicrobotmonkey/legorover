@@ -19,4 +19,4 @@ def sense(clr, distance):
 hub.led.set_color(9)
 hub.vision_sensor.subscribe(sense, mode=VisionSensor.COLOR_DISTANCE_FLOAT)
 time.sleep(200) # play with sensor while it waits   
-hub.vision_sensor.unsubshub,cribe(sense)
+hub.vision_sensor.unsubscribe(sense)
